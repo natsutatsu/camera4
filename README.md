@@ -1,5 +1,5 @@
 # camera4
-gamma_camera.py
+#gamma_camera.py
 createTrackbarでトラックバーを作る.
 gamma = cv2.getTrackbarPos("gamma", "title") * 0.1 #トラックバーから値を得る
     if gamma == 0:#0の時は強制的に0.1にする
@@ -33,7 +33,7 @@ gamma_correction_image = cv2.LUT(frame, look_up_table)
 ・リンク
 https://youtu.be/aRB0xBi0G8c
 
-filter_camera.py
+#filter_camera.py
 
 ・使い方
 ウィンドウ上部のトラックバーを変えることによって画面をぼかす.
@@ -49,3 +49,16 @@ http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_i
 blur = cv2.blur(img,(5,5))
 の文を引用
 
+#color_camera.py
+
+・使い方
+
+・依存ライブラリ
+numpy, opencv
+・バージョン
+python3.6
+
+・参考文献
+http://imagingsolution.blog.fc2.com/blog-entry-242.html
+
+各変換式を引用
