@@ -1,10 +1,12 @@
 # camera4
-#gamma_camera.py
+#　gamma_camera.py
+
 createTrackbarでトラックバーを作る.
-gamma = cv2.getTrackbarPos("gamma", "title") * 0.1 #トラックバーから値を得る
-    if gamma == 0:#0の時は強制的に0.1にする
-        gamma = 0.1
-        cv2.setTrackbarPos("gamma", "title", 1) #トラックバーの位置を決める
+
+    gamma = cv2.getTrackbarPos("gamma", "title") * 0.1 #トラックバーから値を得る
+        if gamma == 0:#0の時は強制的に0.1にする
+            gamma = 0.1
+            cv2.setTrackbarPos("gamma", "title", 1) #トラックバーの位置を決める
     
     # ガンマ補正用ルックアップテーブル
     look_up_table = np.zeros((256, 1), dtype = 'uint8')
@@ -33,7 +35,7 @@ gamma_correction_image = cv2.LUT(frame, look_up_table)
 ・リンク
 https://youtu.be/aRB0xBi0G8c
 
-#filter_camera.py
+#　filter_camera.py
 
 ・使い方
 ウィンドウ上部のトラックバーを変えることによって画面をぼかす.
@@ -49,7 +51,7 @@ http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_i
 blur = cv2.blur(img,(5,5))
 の文を引用
 
-#color_camera.py
+#　color_camera.py
 
 ・使い方
 
