@@ -29,7 +29,7 @@ python3.6
 https://qiita.com/Kazuhito/items/c43e96ab16f400a35721
 
 プログラムの
-# ガンマ値設定用のトラックバー用意(小数点を扱えないため、10倍の値で準備)
+#ガンマ値設定用のトラックバーを用意
 から
 gamma_correction_image = cv2.LUT(frame, look_up_table)
 まで引用
