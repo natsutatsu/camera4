@@ -18,8 +18,10 @@ createTrackbarでトラックバーを作る.
 
 ・使い方
 ウィンドウ上部のトラックバーを変えることによって明るさを調整する.
+
 ・依存ライブラリ
 numpy, opencv
+
 ・バージョン
 python3.6
 
@@ -39,8 +41,10 @@ https://youtu.be/aRB0xBi0G8c
 
 ・使い方
 ウィンドウ上部のトラックバーを変えることによって画面をぼかす.
+
 ・依存ライブラリ
 numpy, opencv
+
 ・バージョン
 python3.6
 
@@ -57,6 +61,7 @@ blur = cv2.blur(img,(5,5))
 
 ・依存ライブラリ
 numpy, opencv
+
 ・バージョン
 python3.6
 
