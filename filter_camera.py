@@ -22,7 +22,7 @@ while(True):
     
     blur = cv2.blur(frame,(fil,fil)) #平均値
     
-    cv2.imshow('title', frame)  # show in the win
+    cv2.imshow('title', blur)  # show in the win
 
     k = cv2.waitKey(1)
     if k == ord('q') or k == 27:
