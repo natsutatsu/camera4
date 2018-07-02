@@ -64,6 +64,7 @@ blur = cv2.blur(img,(5,5))
 の文を引用
 
 ・リンク
+https://youtu.be/jckhg_AQ88U
 
 #　color_camera.py
 
@@ -109,3 +110,4 @@ http://imagingsolution.blog.fc2.com/blog-entry-242.html
 各変換式を引用
 
 ・リンク
+https://youtu.be/GgoDkm1yHsU
